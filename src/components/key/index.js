@@ -1,14 +1,17 @@
 import React from 'react';
+import { Button, Container } from './styles/key';
 
 export default function Key(props){
 
     return(
-        <div>
+        
+        <Button onClick={props.onClick}>
             {props.number}
-        </div>
+        </Button>
+        
     )
 
 }
 
-
+Key.Container = ({children}) => (<Container>{children} </Container>)
 
