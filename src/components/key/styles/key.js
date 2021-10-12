@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const Button = styled.button`
-    background: pink;
+    background: lightblue;
     border: none;
-    color: white;
+    color: black;
     font-size: 1.5rem;
     height: 3rem;
     width: 95%;
@@ -18,6 +18,8 @@ display: grid;
 grid-template-columns: 33% 33% 33%;
 margin-top: 2rem;
 grid-row-gap: 0.3rem;
+background: grey;
+padding: 1rem;
 
 
 `

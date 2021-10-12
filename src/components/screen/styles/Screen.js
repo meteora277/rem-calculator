@@ -7,6 +7,7 @@ export const Container = styled.div`
     width: 300px;
     text-align: right;
     font-size: 3rem;
+    background: grey;
 
     
 `
